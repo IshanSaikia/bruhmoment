@@ -32,8 +32,14 @@ String google = "Google";
        else
         System.out.println("Wrong input.");
   }
-  void makeGoogleLonger(int)
+  void makeGoogleLonger(int l)
   {
-    while
+    String oogle = google.substring(0);
+    while(l > 0)
+    {
+      oogle = "o" + oogle;
+      l--;
+    }
+    google = "g" + oogle;
   }
 }
