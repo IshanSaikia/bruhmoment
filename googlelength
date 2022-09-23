@@ -1,0 +1,39 @@
+import java.util.*;
+class OOgle()
+String google = "Google";
+{
+  boolean isGoogleLongEnough(int n)
+  {
+    int n = 0; boolean isLongEnough = false;
+    if(google.length() < n)
+      isLongEnough = false;
+    return isLongEnough;
+  }
+  void SizeMatters()
+  {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Please enter the length you so desire:");
+    int n = sc.nextInt();
+    if(isGoogleLongEnough(n))
+      System.out.println("Yes. Google is long enough." + \n + google);
+    else
+      System.out.println("Unfortunately, your Google is not long enough." + \n "Would you like to increase its length? [Y/N]");
+      String ans = sc.nextLine();
+      if(ans.equals("Y")
+        {
+          System.out.println("How much longer would you like your Google to be?");
+          int l = sc.nextInt();
+          makeGoogleLonger(l);
+          System.out.println("Your new and longer Google is:" + google);
+        }
+       else 
+       if(ans.equals("N")
+        break;
+       else
+        System.out.println("Wrong input.");
+  }
+  void makeGoogleLonger(int)
+  {
+    while
+  }
+}
